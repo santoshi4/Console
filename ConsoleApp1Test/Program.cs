@@ -11,7 +11,8 @@ namespace ConsoleApp1Test
         static void Main(string[] args)
         {
             Console.WriteLine("Test");
-            Console.WriteLine("Welcome");
+           
+            Console.WriteLine(String.Concat(DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff"),"000000"));
         }
     }
 }
